@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+      
+    <script>
+
+
+       let div =document.createElement("div") //background
+       div.style.height="350px"
+       div.style.width="230px"
+       div.style.border="2px solid black";
+       div.style.backgroundImage="url('id.jpg')"
+       div.style.borderBottomLeftRadius="30px"
+       div.style.borderBottomRightRadius="30PX"
+       div.style.borderTopLeftRadius="10px"
+       div.style.borderTopRightRadius="10px"
+       document.body.appendChild(div)
+
+       let div1=document.createElement("div")//title background
+       div1.style.height="40px"
+       div1.style.width="229px"
+       div1.style.border="2px solid black"
+       div1.style.borderTopLeftRadius="9px"
+       div1.style.borderTopRightRadius="10px"
+       div1.style.backgroundColor="#2c3e50 "
+      
+       div.appendChild(div1);
+
+       let div2=document.createElement("div")//title
+       div2.innerHTML="Netra Solutions"
+       div2.style.color="#f4f6f7"
+       div2.style.fontSize="23px"
+       div2.style.fontFamily="Times New Roman"
+      
+       div2.style.marginLeft="39px"
+       div2.style.marginTop="8px"
+       div1.appendChild(div2)
+       let div3=document.createElement("img")//profile image
+           div3.setAttribute("src","pass.jpg")
+           div3.style.height="90px"
+           div3.style.width="90px"
+           div3.style.marginLeft="66px"
+           div3.style.marginTop="15px"
+           div3.style.border="1px solid black"
+           div3.style.borderRadius="15px"
+           div.appendChild(div3)
+        let div4=document.createElement("p") 
+        div4.innerHTML="NAME : NAGA AKASH .D "
+        div4.style.fontSize="16px"
+        div4.style.marginLeft="20px"
+        div.append(div4)
+        let div5=document.createElement("p")
+        div5.innerHTML="FULL STACK DEVELOPER"
+        div5.style.fontSize="14px"
+        div5.style.marginLeft="24px"
+        div.append(div5)
+
+        let div7=document.createElement("p")
+        div7.innerHTML="ID:204N1A3509"
+        div7.style.fontSize="16px"
+        div7.style.marginLeft="50px"
+        div.append(div7)
+        
+        let div6=document.createElement("img") //bar code
+        div6.setAttribute("src","bar code.png")
+        div6.style.height="60px"
+        div6.style.width="120px"
+        div6.style.marginLeft="51px"
+       
+        div.appendChild(div6)
+            
+
+     
+     
+    </script>
+
+</body>
+</html>
